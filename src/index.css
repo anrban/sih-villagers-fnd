@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* A subtle gradient from a very light cyan to almost white */
+  @apply bg-gradient-to-b from-light-bg/30 to-white font-sans text-text-dark;
+}
