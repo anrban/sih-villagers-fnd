@@ -8,6 +8,7 @@ import Gamification from "./pages/Gamification";
 import Account from "./pages/Account";
 import LoadingScreen from "./components/LoadingScreen";
 import { GamificationProvider } from "./context/GamificationContext";
+import Feedback from "./pages/Feedback";
 // import LanguageSelector from "water-safety-web/src/components/LanguageSelector";
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home isLoggedIn={isLoggedIn} />} />
               <Route path="/reports" element={<Reports isLoggedIn={isLoggedIn} />} />
+              <Route path="/feedback" element={<Feedback isLoggedIn={isLoggedIn} />} />
               <Route path="/gamification" element={<Gamification isLoggedIn={isLoggedIn} />} />
               <Route
                 path="/account"
