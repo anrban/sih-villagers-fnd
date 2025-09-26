@@ -39,7 +39,7 @@ export default function Navbar({ isLoggedIn }) {
 
       {/* Desktop Top Navbar */}
       <nav className="hidden md:flex bg-primary text-text-light p-4 shadow-lg justify-between items-center">
-        <h1 className="text-2xl font-black">{t('waterguard_title')}</h1>
+        <h1 className="text-2xl font-black">{t('RakshaSetu')}</h1>
         <ul className="flex space-x-8 items-center">
           {navItems.map((item) => (
             <li key={item.path}>
